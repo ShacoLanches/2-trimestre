@@ -16,8 +16,8 @@
 
 .conteiner{
     display: flex;
-    align-items: center;
-}
+    align-items: center;}
+   
 
 .conteiner__imagem{
     padding: 1em;
@@ -28,11 +28,11 @@
     top: 100%;
     width: 60vw;
 }
-.container__botao:checked ~ .lista-menu{
+
+.conteiner__botao:checked ~ .lista-menu{
     display: block;
+
 }
-
-
 .lista-menu__titulo,
 .lista-menu__item{
     padding: 1em;
